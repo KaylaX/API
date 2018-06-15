@@ -1,6 +1,5 @@
 
 url = ("http://tf-d-ubu-els-vc-05:3050/api/Engines/Spatial/" "v1.0/projections/toWebMercator?longitude=%2s&latitude=%2s"
- 
 % (longitude, latitude))
  
  
