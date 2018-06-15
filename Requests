@@ -1,0 +1,12 @@
+
+url = ("http://tf-d-ubu-els-vc-05:3050/api/Engines/Spatial/" "v1.0/projections/toWebMercator?longitude=%2s&latitude=%2s"
+ 
+% (longitude, latitude))
+ 
+ 
+# Retrieves JSON data output (mercator) created from api and converts to dictionary/list
+ 
+jsonfromnew = requests.get(url)
+ 
+jsonstring = jsonfromnew.text
+json4index = json.loads(jsonstring)
